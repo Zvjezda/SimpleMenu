@@ -1,0 +1,129 @@
+﻿/***********************basic html settup - optional**********************/
+html,
+body {
+	height:100%;
+	margin:0;
+}
+
+/***********************Z-MENU STYLING**********************/
+.modernPallete-headline {
+	background-color:#465675;
+}
+
+.modernPallete-background {
+	background: #262f41;
+    color:white;
+}
+
+.modernPallete-options li:hover{
+	background:rgba(0, 0, 0, 0.18);
+}
+
+.color1Panel {
+	color: #2ca8ff;
+}
+
+.color2Panel {
+	color: #c3d421;
+}
+
+.color3Panel {
+	color: #2cb04a;
+}
+
+.color4Panel {
+	color: #ee5a1a;
+}
+
+.color5Panel {
+	color: yellow;
+}
+/***********************Z-STYLING**********************/
+/***********************Z-MENU**********************/
+.z-meni img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+    border: 0;
+}
+
+.closeMeny {
+	cursor:pointer;
+}
+
+.closeMeny:hover {
+	transform:scale(1.1,1.1);
+}
+
+.z-meni {
+    height: 100%;
+    font-size: 16px;
+    font-weight: 700;
+    position: absolute;
+    max-width: 300px;
+    font-family: sans-serif;
+    min-width: 165px;
+    width: 15%;
+}
+
+.z-headline {
+    height: 51px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.18);
+    margin-bottom: 2%;
+    text-align: center;
+    padding-top: 9.5%;
+    border-right: 1px solid rgba(255,255,255,0.4);
+}
+
+.z-main {
+    list-style-type:none;
+    padding-left:0;
+}
+
+.z-sub {
+    list-style-type:none;
+    padding:0;
+    margin-top: 6%;
+    margin-bottom: 6%;
+}
+
+.z-subHeadline {
+    padding-left: 1rem;
+}
+
+.z-subHeadline.subStyle{
+    color: #bdbdbd;
+    font-weight: 500;
+    margin-top: 16px;
+    display: block;
+}
+
+.z-sub li{
+    padding:1.2rem 1.2rem 1.2rem 2.5rem;
+    cursor:pointer;
+}
+
+.z-main li.separateLink{
+    padding:1.2rem 1.2rem 1.2rem 2.5rem;
+    border-top: 1px solid rgba(0, 0, 0, 0.18);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.18);
+}
+
+.z-title a,
+.z-meni a{
+    color: white;
+	text-decoration:none;
+}
+
+.companyLogo {
+	width: 100%;
+    text-align: center;
+    display: inline-block;
+}
+
+.companyLogo img {
+	width: 30%;
+    position: absolute;
+    bottom: 2%;
+    left: 29%;
+}
